@@ -18,7 +18,9 @@ jobs:
     steps:
       - checkout
       - heroku/install
-      - heroku/deploy
+      - heroku/check-authentication
+      - heroku/deploy-via-git:
+          app-name: ahmaddani195410190uas
 orbs:
   python: circleci/python@1.4.0
   heroku: circleci/heroku@1.2.6
