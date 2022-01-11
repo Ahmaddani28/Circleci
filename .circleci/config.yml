@@ -32,18 +32,6 @@ parameters:
       Allows you to specify the no_output_timeout for the `git push` to heroku.
       Defaults to 10m.
     type: string
-  post-deploy:
-    default: []
-    description: >-
-      A list of post-deploy steps that are run after deployment. This would be
-      an ideal place to scale any processes back up.
-    type: steps
-  pre-deploy:
-    default: []
-    description: >-
-      A list of pre-deploy steps that are run before deployment. This would be
-      an ideal place to scale any processes down.
-    type: steps
   tag:
     default: $CIRCLE_TAG
     description: Deploy the given tag. The default value is your current tag.
