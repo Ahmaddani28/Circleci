@@ -5,6 +5,6 @@
         "profile_name": "default",
         "project_name": "Circleci",
         "runtime": "python3.8",
-        "s3_bucket": "zappa-8fwq76ccu"
+        "s3_bucket": "ahmaddani195410190uas"
     }
 }
