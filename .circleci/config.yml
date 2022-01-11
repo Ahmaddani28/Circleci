@@ -18,7 +18,7 @@ jobs:
     steps:
       - checkout
       - heroku/install
-      - heroku/deploy-via-git
+      - heroku/deploy
 orbs:
   python: circleci/python@1.4.0
   heroku: circleci/heroku@1.2.6
