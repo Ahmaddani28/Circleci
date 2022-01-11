@@ -3,7 +3,7 @@
         "app_function": "hello.app",
         "aws_region": "us-east-1",
         "profile_name": "default",
-        "project_name": "Circleci",
+        "project_name": "ahmaddani195410190uas",
         "runtime": "python3.8",
         "s3_bucket": "ahmaddani195410190uas"
     }
